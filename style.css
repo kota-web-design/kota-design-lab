@@ -780,6 +780,83 @@ a {
 }
 
 /* ===============================
+   CLIENT REVIEW
+=============================== */
+.client-review {
+  padding: 96px 20px;
+  background: #f7f7f5;
+}
+
+.client-review__inner {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.client-review__title {
+  margin-bottom: 16px;
+  color: var(--brand-ink);
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-align: center;
+}
+
+.client-review__lead {
+  max-width: 720px;
+  margin: 0 auto 42px;
+  color: #666;
+  font-size: 14px;
+  line-height: 1.9;
+  text-align: center;
+}
+
+.client-review__card {
+  display: block;
+  overflow: hidden;
+  max-width: 780px;
+  margin: 0 auto;
+  border: 1px solid #e3e8ec;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 20px 44px rgba(16, 37, 63, 0.07);
+}
+
+.client-review__visual {
+  position: relative;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  background: #fff;
+}
+
+.client-review__visual img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.client-review__visual > span {
+  position: absolute;
+  right: 14px;
+  bottom: 14px;
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: rgba(16, 37, 63, 0.92);
+  color: #fff;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+}
+
+.client-review__privacy {
+  margin-top: 16px;
+  color: #888;
+  font-size: 10px;
+  line-height: 1.7;
+  text-align: center;
+}
+
+/* ===============================
    SERVICE
 =============================== */
 .service {
@@ -1182,20 +1259,12 @@ a {
 }
 
 .figma-showcase__note {
-  max-width: 900px;
-  margin: 0 auto 48px;
-  padding: 18px 22px;
-  border: 1px solid #e3e8ec;
-  border-left: 3px solid var(--brand-gold);
-  border-radius: 8px;
-  background: rgba(245, 247, 248, 0.88);
-  color: #59616a;
-  font-size: 12px;
-  line-height: 1.85;
-}
-
-.figma-showcase__note strong {
-  color: var(--brand-navy);
+  max-width: 820px;
+  margin: 30px auto 0;
+  color: #777;
+  font-size: 11px;
+  line-height: 1.8;
+  text-align: center;
 }
 
 .figma-showcase__grid {
@@ -1882,6 +1951,41 @@ a {
     font-size: 9px;
   }
 
+  .client-review {
+    padding: 72px 20px;
+  }
+
+  .client-review__title {
+    margin-bottom: 12px;
+    font-size: 22px;
+    line-height: 1.5;
+  }
+
+  .client-review__lead {
+    margin-bottom: 30px;
+    font-size: 13px;
+    line-height: 1.8;
+    text-align: left;
+  }
+
+  .client-review__card {
+    max-width: 100%;
+  }
+
+  .client-review__visual {
+    border: 0;
+  }
+
+  .client-review__visual > span {
+    right: 10px;
+    bottom: 10px;
+    font-size: 9px;
+  }
+
+  .client-review__privacy {
+    text-align: left;
+  }
+
   .portfolio-cta {
     padding: 68px 20px;
   }
@@ -2411,14 +2515,9 @@ a {
   }
 
   .figma-showcase__note {
-    margin-bottom: 32px;
-    padding: 15px 16px;
+    margin-top: 24px;
     font-size: 11px;
-  }
-
-  .figma-showcase__note strong {
-    display: block;
-    margin-bottom: 4px;
+    text-align: left;
   }
 
   .figma-showcase__grid {
