@@ -1149,6 +1149,156 @@ a {
 }
 
 /* ===============================
+   FIGMA DESIGN COMPS
+=============================== */
+.figma-showcase {
+  padding: 110px 20px;
+  background:
+    radial-gradient(circle at 50% 0%, rgba(200, 154, 85, 0.1), transparent 34%),
+    #fff;
+}
+
+.figma-showcase__inner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.figma-showcase__title {
+  margin-bottom: 16px;
+  color: var(--brand-ink);
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-align: center;
+}
+
+.figma-showcase__lead {
+  max-width: 760px;
+  margin: 0 auto 28px;
+  color: #666;
+  font-size: 14px;
+  line-height: 1.9;
+  text-align: center;
+}
+
+.figma-showcase__note {
+  max-width: 900px;
+  margin: 0 auto 48px;
+  padding: 18px 22px;
+  border: 1px solid #e3e8ec;
+  border-left: 3px solid var(--brand-gold);
+  border-radius: 8px;
+  background: rgba(245, 247, 248, 0.88);
+  color: #59616a;
+  font-size: 12px;
+  line-height: 1.85;
+}
+
+.figma-showcase__note strong {
+  color: var(--brand-navy);
+}
+
+.figma-showcase__grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 30px;
+}
+
+.figma-showcase__card {
+  display: block;
+  overflow: hidden;
+  border: 1px solid #e3e8ec;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 18px 38px rgba(16, 37, 63, 0.06);
+  color: var(--brand-ink);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.figma-showcase__visual {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  aspect-ratio: 16 / 10;
+  background: #f3f4f5;
+}
+
+.figma-showcase__visual img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  transition: transform 0.45s ease;
+}
+
+.figma-showcase__open {
+  position: absolute;
+  right: 16px;
+  bottom: 16px;
+  display: inline-flex;
+  align-items: center;
+  min-height: 38px;
+  padding: 9px 14px;
+  border-radius: 999px;
+  background: rgba(16, 37, 63, 0.92);
+  color: #fff;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  backdrop-filter: blur(8px);
+}
+
+.figma-showcase__body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 22px 24px 24px;
+  text-align: center;
+}
+
+.figma-showcase__category {
+  margin-bottom: 8px;
+  color: #888;
+  font-size: 11px;
+  letter-spacing: 0.08em;
+}
+
+.figma-showcase__body > strong {
+  margin-bottom: 10px;
+  color: var(--brand-navy);
+  font-size: 18px;
+  letter-spacing: 0.04em;
+}
+
+.figma-showcase__description {
+  min-height: 3.5em;
+  color: #666;
+  font-size: 13px;
+  line-height: 1.75;
+}
+
+.figma-showcase__link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 18px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid var(--brand-gold);
+  color: var(--brand-navy);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.figma-showcase__card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 24px 52px rgba(16, 37, 63, 0.12);
+}
+
+.figma-showcase__card:hover .figma-showcase__visual img {
+  transform: scale(1.025);
+}
+
+/* ===============================
    PROCESS
 =============================== */
 .process {
@@ -2236,6 +2386,65 @@ a {
   }
 
   .lp__meta {
+    font-size: 11px;
+  }
+
+  /* ===============================
+   Figma design comps
+  =============================== */
+
+  .figma-showcase {
+    padding: 80px 20px;
+  }
+
+  .figma-showcase__title {
+    margin-bottom: 12px;
+    font-size: 22px;
+    line-height: 1.5;
+  }
+
+  .figma-showcase__lead {
+    margin-bottom: 22px;
+    font-size: 13px;
+    line-height: 1.8;
+    text-align: left;
+  }
+
+  .figma-showcase__note {
+    margin-bottom: 32px;
+    padding: 15px 16px;
+    font-size: 11px;
+  }
+
+  .figma-showcase__note strong {
+    display: block;
+    margin-bottom: 4px;
+  }
+
+  .figma-showcase__grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .figma-showcase__open {
+    right: 12px;
+    bottom: 12px;
+  }
+
+  .figma-showcase__body {
+    padding: 18px 18px 20px;
+  }
+
+  .figma-showcase__body > strong {
+    font-size: 16px;
+  }
+
+  .figma-showcase__description {
+    min-height: 0;
+    font-size: 12px;
+  }
+
+  .figma-showcase__link {
     font-size: 11px;
   }
 
