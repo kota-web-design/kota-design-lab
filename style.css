@@ -1948,7 +1948,7 @@ a {
     left: 10px;
     min-height: 28px;
     padding: 5px 9px;
-    font-size: 9px;
+    font-size: 10px;
   }
 
   .client-review {
@@ -1963,9 +1963,9 @@ a {
 
   .client-review__lead {
     margin-bottom: 30px;
-    font-size: 13px;
+    font-size: 14px;
     line-height: 1.8;
-    text-align: left;
+    text-align: center;
   }
 
   .client-review__card {
@@ -1979,11 +1979,11 @@ a {
   .client-review__visual > span {
     right: 10px;
     bottom: 10px;
-    font-size: 9px;
+    font-size: 10px;
   }
 
   .client-review__privacy {
-    text-align: left;
+    text-align: center;
   }
 
   .portfolio-cta {
@@ -1995,8 +1995,8 @@ a {
   }
 
   .portfolio-cta p:not(.portfolio-cta__label) {
-    font-size: 13px;
-    text-align: left;
+    font-size: 14px;
+    text-align: center;
   }
 
   .portfolio-cta__button,
@@ -2007,7 +2007,7 @@ a {
   }
 
   .contact__note {
-    font-size: 11px;
+    font-size: 12px;
   }
 
 .sp-only{
@@ -2124,7 +2124,7 @@ a {
     min-height: 48px;
     padding: 0 14px;
     border-radius: 10px;
-    font-size: 13px;
+    font-size: 14px;
     letter-spacing: 0.06em;
     color: #222;
     transition:
@@ -2199,7 +2199,7 @@ a {
   }
 
   .fv__lead {
-    font-size: 11px;
+    font-size: 12px;
     letter-spacing: 0.12em;
     line-height: 1.8;
     margin-bottom: 12px;
@@ -2210,7 +2210,7 @@ a {
   }
 
   .fv__title {
-    font-size: clamp(20px, 5.6vw, 25px);
+    font-size: clamp(21px, 6vw, 26px);
     line-height: 1.5;
     margin-bottom: 20px;
     max-width: 350px;
@@ -2260,8 +2260,13 @@ a {
     font-size: 16px;
   }
 
+  .fv__points span,
+  .fv__points small {
+    font-size: 12px;
+  }
+
   .fv__note {
-    font-size: 11px;
+    font-size: 12px;
   }
 
   /* ===============================
@@ -2305,7 +2310,7 @@ a {
   }
 
   .about__text {
-    font-size: 13px;
+    font-size: 14px;
     line-height: 1.8;
     margin-bottom: 18px;
   }
@@ -2328,12 +2333,12 @@ a {
 
   .about__strength h3,
   .about__data h3 {
-    font-size: 13px;
+    font-size: 14px;
   }
 
   .about__strength li,
   .about__data p {
-    font-size: 12px;
+    font-size: 13px;
   }
 
   .about__skills {
@@ -2341,13 +2346,13 @@ a {
   }
 
   .about__skills li {
-    font-size: 11px;
+    font-size: 12px;
     padding: 5px 10px;
   }
 
   .about__note {
-    font-size: 12px;
-    text-align: left;
+    font-size: 13px;
+    text-align: center;
   }
 
   /* ===============================
@@ -2364,7 +2369,7 @@ a {
   }
 
   .service__lead {
-    font-size: 13px;
+    font-size: 14px;
     text-align: center;
     margin-bottom: 32px;
   }
@@ -2383,7 +2388,7 @@ a {
   }
 
   .service__card p {
-    font-size: 13px;
+    font-size: 14px;
   }
 
   .service__points {
@@ -2392,7 +2397,7 @@ a {
   }
 
   .service__points li {
-    font-size: 12px;
+    font-size: 13px;
   }
 
   /* ===============================
@@ -2409,7 +2414,7 @@ a {
   }
 
   .works__lead {
-    font-size: 13px;
+    font-size: 14px;
     margin-bottom: 32px;
   }
 
@@ -2428,15 +2433,15 @@ a {
   }
 
   .works__info h3 {
-    font-size: 15px;
+    font-size: 16px;
   }
 
   .works__info p {
-    font-size: 12px;
+    font-size: 13px;
   }
 
   .works__category {
-    font-size: 10px;
+    font-size: 11px;
   }
 
   .works__tags {
@@ -2446,7 +2451,7 @@ a {
   .works__link {
     opacity: 1;
     transform: none;
-    font-size: 11px;
+    font-size: 12px;
     padding: 6px 12px;
   }
 
@@ -2464,7 +2469,7 @@ a {
   }
 
   .lp__lead {
-    font-size: 13px;
+    font-size: 14px;
     margin-bottom: 32px;
   }
 
@@ -2482,15 +2487,15 @@ a {
   }
 
   .lp__info h3 {
-    font-size: 15px;
+    font-size: 16px;
   }
 
   .lp__info p {
-    font-size: 12px;
+    font-size: 13px;
   }
 
   .lp__meta {
-    font-size: 11px;
+    font-size: 12px;
   }
 
   /* ===============================
@@ -2509,14 +2514,14 @@ a {
 
   .figma-showcase__lead {
     margin-bottom: 22px;
-    font-size: 13px;
+    font-size: 14px;
     line-height: 1.8;
     text-align: left;
   }
 
   .figma-showcase__note {
     margin-top: 24px;
-    font-size: 11px;
+    font-size: 12px;
     text-align: left;
   }
 
@@ -2540,11 +2545,11 @@ a {
 
   .figma-showcase__description {
     min-height: 0;
-    font-size: 12px;
+    font-size: 13px;
   }
 
   .figma-showcase__link {
-    font-size: 11px;
+    font-size: 12px;
   }
 
   /* ===============================
@@ -2561,7 +2566,7 @@ a {
   }
 
   .process__lead {
-    font-size: 13px;
+    font-size: 14px;
     line-height: 1.8;
     margin-bottom: 32px;
   }
@@ -2579,7 +2584,7 @@ a {
   }
 
   .process__item p {
-    font-size: 13px;
+    font-size: 14px;
   }
   /* ===============================
    Trust
@@ -2596,9 +2601,9 @@ a {
   }
 
   .trust__text {
-    font-size: 13px;
+    font-size: 14px;
     line-height: 1.8;
-    text-align: left;
+    text-align: center;
   }
 
   .contact {
@@ -2612,8 +2617,9 @@ a {
   }
 
   .contact__text {
-    font-size: 13px;
+    font-size: 14px;
     line-height: 1.8;
+    text-align: center;
   }
 
 /* ===============================
@@ -2630,7 +2636,7 @@ a {
   }
 
   .footer__copy {
-    font-size: 11px;
+    font-size: 12px;
     line-height: 1.6;
   }
 /* ===============================
@@ -2651,7 +2657,7 @@ a {
   }
 
   .work__back a {
-    font-size: 12px;
+    font-size: 13px;
   }
 
   /* タイトル */
@@ -2671,7 +2677,7 @@ a {
   }
 
   .work__link-note {
-    font-size: 11px;
+    font-size: 12px;
     margin-bottom: 24px;
   }
 
@@ -2693,13 +2699,13 @@ a {
   }
 
   .work__block p {
-    font-size: 13px;
+    font-size: 14px;
     line-height: 1.8;
   }
 
   /* リスト */
   .work__list li {
-    font-size: 13px;
+    font-size: 14px;
     margin-bottom: 8px;
     padding-left: 16px;
   }
@@ -2795,6 +2801,12 @@ a {
 .contact__guide {
     margin-top: 24px;
     padding: 18px;
+    text-align: center;
+  }
+
+  .contact__guide p:last-child {
+    font-size: 14px;
+    text-align: center;
   }
 
 .about__text-line {
