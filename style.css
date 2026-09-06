@@ -1914,6 +1914,41 @@ a {
   margin-top: 12px;
 }
 
+@media screen and (min-width: 769px) {
+  .fv {
+    padding: 96px 20px 70px;
+  }
+
+  .about {
+    padding: 88px 20px 96px;
+  }
+
+  .about__inner {
+    max-width: 1040px;
+    gap: 56px;
+    align-items: flex-start;
+  }
+
+  .about__img {
+    flex: 0 0 390px;
+    width: 390px;
+    min-height: 0;
+    aspect-ratio: 4 / 3;
+  }
+
+  .about__img img {
+    height: 100%;
+    min-height: 0;
+    aspect-ratio: auto;
+  }
+
+  .about__content {
+    flex: 1;
+    width: auto;
+    max-width: 620px;
+  }
+}
+
 /* ===============================
    SP styles (768px and below)
    Mobile overrides are consolidated here.
